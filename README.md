@@ -5,27 +5,21 @@ For styling semantic-ui is used.
 Setup
 Create project with virtual environment
 
-$ mkdir myproject
-$ cd myproject
-$ python3 -m venv venv
+`$ mkdir myproject`
+`$ cd myproject`
+`$ python3 -m venv venv`
 Activate it
 
-$ . venv/bin/activate
-or on Windows
+`$ . venv/bin/activate`
 
-venv\Scripts\activate
-Install Flask
 
-$ pip install Flask
-$ pip install Flask-SQLAlchemy
+`$ pip install Flask`
+`$ pip install Flask-SQLAlchemy`
 Set environment variables in terminal
 
-$ export FLASK_APP=app.py
-$ export FLASK_ENV=development
-or on Windows
+`$ export FLASK_APP=app.py`
+`$ export FLASK_ENV=development`
 
-$ set FLASK_APP=app.py
-$ set FLASK_ENV=development
 Run the app
 
-$ flask run
+`$ flask run`
